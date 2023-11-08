@@ -12,5 +12,7 @@ mysql 8.0
 nginx 1.22
 redis 7.0
 守护进程管理器 3.0
+安装下载
+通过git下载baidu_query.sql和junbros_push.php文件，通过baidu_query.sql文件建立拓词表，junbros_push.php为运行的脚本，在php文件中配置好数据库信息和redis连接信息，测试通过后，在守护进程管理器通过php junbros_push.php命令监控运行程序
 
 
